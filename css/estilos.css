@@ -1,0 +1,34 @@
+/*Quitar propiedad del navegador */
+*{
+    padding:0;
+    margin:0;
+}
+
+.contenedor{
+    padding:0px;
+    margin:auto;
+    width:500px;
+    height: 500px;
+    background-color: rgb(145, 145, 39);
+    border: 10px solid black;
+    
+}
+#player{
+    background-color: red;
+    border: 4px dashed rgb(68, 23, 183);
+    width: 50px;
+    height: 50px;
+    border-radius: 29px;
+    position: absolute;
+    transition: all 0.3s;
+}
+.pointer{
+    background-color: rgb(69, 69, 71);
+    height: 50px;
+    margin-top:30px;
+    border-bottom: 0px;
+    color:#fff;
+    font-size: 20px;
+    text-align:center;
+    padding:10px 0px;
+}
