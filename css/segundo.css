@@ -13,10 +13,10 @@
     
 }
 #player{
-    background-color: black;
+    background-color: yellow;
     border: 4px dashed rgb(68, 23, 183);
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     border-radius: 9px;
     position: absolute;
     transition: all 0.3s;
